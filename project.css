@@ -1,0 +1,459 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.navbar
+{
+    height: 65px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items:center;
+    gap: 20px;
+}
+
+.nav_logo
+{
+    height: 60px;
+    width: 110px;
+    margin-right: 20px;
+}
+
+.amazon_logo
+{
+    height: 50px;
+    width: 100%;
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    /* border: 1px solid black; */
+} 
+.white_white:hover
+{   
+    padding: 4px;
+    border: 2px solid white;
+}   
+
+/* box 2 rem mein krna seekho */
+.icon
+{
+    display: flex;
+    align-items: center;
+}
+#deliver
+{   
+    margin-left: 20px;
+    font-size: 1rem;
+    color: #cccccc;
+}
+#iconicon
+{
+    /* margin-top: 4px; */
+    height: 15px;
+    width: 20px;
+}   
+
+#india
+{   
+    font-size: 1.22rem;
+    font-weight: 700;
+    /* margin-left: 5px; */
+}
+
+/* box3 */
+
+.box3
+{
+    width: 910px;
+    height: 40px;
+    /* border: 1px solid white; */
+    /* border-radius: 7px; */
+    display: flex;
+    align-items: center;
+    background-color: rgb(250, 159, 1);
+    
+}
+.box3:active
+{
+    border: 2px solid black;
+}
+#box31
+{   
+    border: none;
+    height: 40px;
+    width: 70px;
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px ;
+    background-color: #e6e6e6;
+    
+}
+
+#box32
+{   
+    padding-left: 10px;
+    border: none;
+    width: 780px;
+    height: 40px;
+    font-size: 1rem;
+}
+
+
+
+.box33
+{   
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:12px;
+    font-size: 25px;
+    color: rgba(29, 29, 29, 0.856);
+
+}
+
+#selectlang
+{   
+    border: none;
+    background-color: #0f1111; 
+    color:white;
+    height: 30px;
+    width: 40px;
+    
+}
+
+.l1
+{   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.l2
+{   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.cart
+{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+#cartt
+{
+    /* height:10px;
+    width: 20px; */
+    /* icon ka size font size see bhadta hai .. naaki width aur height */
+    font-size: 30px;
+}
+
+#carttt
+{   
+    margin-left: 6px;
+    line-height: 1.5rem;
+    font-size: 12px;
+}
+
+
+
+
+
+
+/* panel 2 */
+
+.panel2
+{
+    height: 40px;
+    color: white;
+    background-color:#242626;
+    display: flex;
+    font-size: 17px;
+    gap: 20px;
+    align-items: center;
+    /* justify-content: center; */
+}
+#all
+{
+    margin-left: 30px;
+}
+#all span
+{
+    margin-left: 7px;
+}
+#shop_deals
+{   
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-left: 350px;
+}
+
+.hero_section
+{
+    width: 98vw;
+    height: 600px;
+    background-image: url("Hero_image.jpg");
+    background-size: cover;
+    margin-left: 0.5vw;
+    display: flex;
+    justify-content: center;
+
+    height: 340px;
+}
+
+.hero_line_box
+{
+    width: 96vw;
+    height: 40px;
+    background-color: white;   
+    /* padding-top: 300px;   size bhadd jayega iska*/
+    position:relative;
+    top: 270px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+#hero_line_info2
+{
+    text-decoration:none;
+    color: blue;
+}
+#hero_line_info2:hover
+{
+    color: rgb(235, 78, 78);
+    text-decoration: underline;
+}
+
+
+                        /* gap1 */
+#gap1
+{
+    height: 30px;
+    background-color: rgba(167, 209, 227, 0.837);
+}
+.many_Images_box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 30px; */
+
+}
+.many_Images
+{   
+    height: 120vh;
+    width: 96vw;
+    background-color: rgba(167, 209, 227, 0.837);
+    
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+
+.image_Size
+{
+    height: 55vh;
+    width: 22.69vw;
+    font-size: 23px;
+    font-weight: 600;
+    background-color: aliceblue;
+}
+
+.text_Margin
+{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.image_size_dimension
+{   
+    margin:10px 20px 15px 20px;
+    height: 280px;
+}
+
+.image_bottom
+{
+    font-size: 16px;
+    color: rgb(39, 39, 137);
+
+    margin: 0px 0px 0px 20px;
+
+}
+#image_bottom:hover
+{
+    color:rgb(249, 102, 102);
+}
+
+#im1
+{
+    background-image: url(white_back.jpg);
+    background-size: cover;
+}
+
+#im2
+{
+    /* background-color: rgb(179, 255, 0); */
+    background-image: url('deals_in_pc.jpg');
+    background-size: cover;
+    
+}
+#im3
+{
+    /* background-color: rgb(12, 203, 9); */
+    background-image: url('refresh.jpg');
+    background-size: cover;
+}
+#im4
+{
+    /* background-color: rgb(36, 12, 172); */
+    background-image: url('amazon_gadgets.jpeg');
+    background-size: contain;
+}
+#im5
+{
+    /* background-color: rgb(208, 0, 255); */
+    background-image: url('shop_deals.jpeg');
+    background-size: cover;
+}
+#im6
+{
+    /* background-color: rgb(255, 0, 0); */
+    background-image: url('top_deal.jpg');
+    background-size: cover;
+}
+#im7
+{
+    /* background-color: rgb(0, 195, 255); */
+    background-image: url('FASHION_TREND.webp');
+    background-size: cover;
+}
+#im8
+{
+    
+    background-image: url('home_decor.jpg');
+    background-size: cover;
+
+}
+
+                /* gap */
+#gap2
+{
+    height: 30px;
+    background-color: rgba(167, 209, 227, 0.837);
+}
+.foot_panel1
+{
+    height: 50px;
+    width: 100vw;
+    background-color: rgb(35, 35, 35,0.85);
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot_panel1:hover{
+    cursor: pointer; /*edited*/
+}
+
+/* .foot_panel2
+{
+    height:50px;
+    width: 100vh;
+    background-color:#232f3e ;
+} */
+
+.foot_panel2
+{   
+    
+    height: 350px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+ul a
+{
+    display: block;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #dddddd;
+}
+
+.foot
+{
+    margin-top: 35px;
+}
+
+/* .miniline
+{
+    height: 2px;
+    background-color: black;
+} */
+
+.foot_panel3
+{   
+    border-top: 1px solid #dddddd;
+    height: 90px;
+    background-color:#232f3e;
+    display: flex;
+}
+.foot_logo
+{
+    height: 60px;
+    width: 30px;
+    display: flex;
+    /* justify-content: center;  */
+     /* align-items:center; */
+    margin-top: 10px;
+     position: relative;
+    left: 500px; 
+}
+
+.foot_panel4
+{
+    height: 80px;
+    background-color: #131a22;
+    color:#dddddd;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+#line2
+{   
+    padding-top: 8px;
+    text-align: center;
+}
+
+
+/* after a long time */
+
+a{
+    text-decoration:none;
+}
+
+.panel2>a:hover{
+    border: 2px solid white;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.image_Size>a:hover{
+    color: rgba(137, 43, 226, 0.823);
+}
+.image_Size:hover{
+    cursor: pointer;
+}
